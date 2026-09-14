@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voryzaq Services — Web Development Agency</title>
+<meta name="description" content="Voryzaq Services builds modern, fast, custom websites for brands, businesses and creators — from first sketch to launch.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png">
+</head>
+<body>
+
+<!-- ===== PRELOADER ===== -->
+<div class="preloader" id="preloader">
+  <div class="preloader-mark">
+    <img src="assets/logo-icon.png" alt="Voryzaq Services" class="preloader-logo">
+  </div>
+  <div class="preloader-label">VORYZAQ</div>
+</div>
+
+<!-- ===== CUSTOM CURSOR ===== -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ===== BLUEPRINT BACKDROP ===== -->
+<div class="blueprint" aria-hidden="true">
+  <div class="blueprint-grid"></div>
+  <div class="blueprint-spot" id="blueprintSpot"></div>
+</div>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">
+      <span class="nav-logo-mark"><img src="assets/logo-icon.png" alt="" class="nav-logo-img"></span>
+      VORYZAQ<span class="nav-logo-sub">SERVICES</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="portfolio.html"><span class="nav-idx">01</span>Work</a>
+      <a href="#services"><span class="nav-idx">02</span>Services</a>
+      <a href="#process"><span class="nav-idx">03</span>Process</a>
+      <a href="#about"><span class="nav-idx">04</span>About</a>
+      <a href="#contact"><span class="nav-idx">05</span>Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-ghost nav-cta">Start a Project</a>
+    <button class="nav-burger" id="navBurger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<main id="top">
+<section class="hero" id="hero">
+  <div class="frame-tag frame-tag--tl">FRAME / HERO</div>
+  <div class="frame-tag frame-tag--tr" id="scrollCoord">X:0000 Y:0000</div>
+
+  <div class="hero-inner">
+    <p class="eyebrow reveal">
+      <span class="eyebrow-dot"></span>WEB DEVELOPMENT AGENCY — EST. 2026
+    </p>
+
+    <h1 class="hero-title">
+      <span class="reveal-line"><span class="reveal-inner">WE BUILD</span></span>
+      <span class="reveal-line"><span class="reveal-inner">DIGITAL</span></span>
+      <span class="reveal-line"><span class="reveal-inner"><em>EXPERIENCES.</em></span></span>
+    </h1>
+
+    <div class="hero-foot">
+      <p class="hero-sub reveal">Modern websites for brands, businesses &amp; creators —<br> designed and built end‑to‑end by one dedicated team.</p>
+      <div class="hero-actions reveal">
+        <a href="portfolio.html" class="btn btn-primary magnetic">
+          <span>View Our Work</span>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.4"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-outline magnetic">Get in Touch</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>BUSINESS WEBSITES</span><span class="marquee-sep">✦</span>
+      <span>E‑COMMERCE</span><span class="marquee-sep">✦</span>
+      <span>LANDING PAGES</span><span class="marquee-sep">✦</span>
+      <span>REDESIGNS</span><span class="marquee-sep">✦</span>
+      <span>BUSINESS WEBSITES</span><span class="marquee-sep">✦</span>
+      <span>E‑COMMERCE</span><span class="marquee-sep">✦</span>
+      <span>LANDING PAGES</span><span class="marquee-sep">✦</span>
+      <span>REDESIGNS</span><span class="marquee-sep">✦</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="section" id="services">
+  <div class="frame-tag frame-tag--tl">FRAME / SERVICES</div>
+  <div class="section-head">
+    <p class="eyebrow reveal"><span class="eyebrow-dot"></span>WHAT WE DO</p>
+    <h2 class="section-title reveal">Services built around<br>one outcome — a site that <em>works.</em></h2>
+  </div>
+
+  <div class="services-grid">
+    <article class="service-card reveal">
+      <span class="service-num">01</span>
+      <h3>Business Websites</h3>
+      <p>Clean, credible sites that give small businesses and studios a professional home online — built to earn trust and convert visitors into clients.</p>
+      <span class="service-tags">Marketing sites · Portfolios · Service pages</span>
+    </article>
+
+    <article class="service-card reveal">
+      <span class="service-num">02</span>
+      <h3>E‑Commerce</h3>
+      <p>Custom online stores with fast product pages, smooth checkout flows and an admin panel you can actually manage without a developer on call.</p>
+      <span class="service-tags">Product catalogs · Checkout · Inventory</span>
+    </article>
+
+    <article class="service-card reveal">
+      <span class="service-num">03</span>
+      <h3>Landing Pages</h3>
+      <p>Focused, high‑converting single pages for launches, campaigns and lead generation — scoped tight and shipped in days, not months.</p>
+      <span class="service-tags">Product launches · Campaigns · Waitlists</span>
+    </article>
+
+    <article class="service-card reveal">
+      <span class="service-num">04</span>
+      <h3>Redesigns</h3>
+      <p>We take a slow, dated or broken website and rebuild it — same brand, new foundation. Faster load times, mobile‑first, built to last.</p>
+      <span class="service-tags">Audits · Rebuilds · Migrations</span>
+    </article>
+
+    <article class="service-card service-card--wide reveal">
+      <span class="service-num">05</span>
+      <h3>Graphic Design</h3>
+      <p>Logos, social creatives and print‑ready design that carry the same identity across every touchpoint — not just the website.</p>
+      <span class="service-tags">Logo &amp; Brand Identity · Social Media Creatives · Print &amp; Packaging</span>
+    </article>
+  </div>
+</section>
+
+<!-- ===== FEATURED WORK ===== -->
+<section class="section section--dark" id="work">
+  <div class="frame-tag frame-tag--tl light">FRAME / WORK</div>
+  <div class="section-head section-head--split">
+    <div>
+      <p class="eyebrow reveal"><span class="eyebrow-dot"></span>FEATURED WORK</p>
+      <h2 class="section-title reveal">Selected projects,<br>shipped and <em>live.</em></h2>
+    </div>
+    <a href="portfolio.html" class="btn btn-outline btn-light magnetic work-head-link reveal">
+      <span>View Full Portfolio</span>
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.4"/></svg>
+    </a>
+  </div>
+
+  <div class="work-grid">
+
+    <a class="work-card reveal" href="https://voryzaq-services.github.io/real-state-portfolio/" target="_blank" rel="noopener">
+      <div class="work-preview tilt">
+        <div class="browser-chrome"><span></span><span></span><span></span></div>
+        <div class="live-embed">
+          <iframe src="https://voryzaq-services.github.io/real-state-portfolio/" loading="lazy" tabindex="-1" title="Aldermere preview"></iframe>
+        </div>
+      </div>
+      <div class="work-meta">
+        <h3>Aldermere</h3>
+        <span class="work-link">Visit site <svg width="11" height="11" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.4"/></svg></span>
+      </div>
+      <div class="work-foot">
+        <span class="work-cat">Real Estate Website</span>
+        <span class="work-live"><span class="work-live-dot"></span>Live</span>
+      </div>
+    </a>
+
+    <a class="work-card reveal" href="https://voryzaq-services.github.io/clothing-brand-sample/" target="_blank" rel="noopener">
+      <div class="work-preview tilt">
+        <div class="browser-chrome"><span></span><span></span><span></span></div>
+        <div class="live-embed">
+          <iframe src="https://voryzaq-services.github.io/clothing-brand-sample/" loading="lazy" tabindex="-1" title="Wear Drip preview"></iframe>
+        </div>
+      </div>
+      <div class="work-meta">
+        <h3>Wear Drip</h3>
+        <span class="work-link">Visit site <svg width="11" height="11" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.4"/></svg></span>
+      </div>
+      <div class="work-foot">
+        <span class="work-cat">Streetwear E‑Commerce</span>
+        <span class="work-live"><span class="work-live-dot"></span>Live</span>
+      </div>
+    </a>
+
+    <a class="work-card reveal" href="https://voryzaq-services.github.io/Luxora-fashion/" target="_blank" rel="noopener">
+      <div class="work-preview tilt">
+        <div class="browser-chrome"><span></span><span></span><span></span></div>
+        <div class="live-embed">
+          <iframe src="https://voryzaq-services.github.io/Luxora-fashion/" loading="lazy" tabindex="-1" title="Luxora preview"></iframe>
+        </div>
+      </div>
+      <div class="work-meta">
+        <h3>Luxora</h3>
+        <span class="work-link">Visit site <svg width="11" height="11" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.4"/></svg></span>
+      </div>
+      <div class="work-foot">
+        <span class="work-cat">Fashion E‑Commerce</span>
+        <span class="work-live"><span class="work-live-dot"></span>Live</span>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="work-more reveal">
+    <a href="https://github.com/voryzaq-services" target="_blank" rel="noopener" class="btn btn-ghost-light magnetic">
+      Or browse the code on GitHub
+      <svg width="12" height="12" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.4"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ===== PROCESS ===== -->
+<section class="section" id="process">
+  <div class="frame-tag frame-tag--tl">FRAME / PROCESS</div>
+  <div class="section-head">
+    <p class="eyebrow reveal"><span class="eyebrow-dot"></span>HOW WE WORK</p>
+    <h2 class="section-title reveal">One straight line<br>from idea to <em>launch.</em></h2>
+  </div>
+
+  <div class="process-list">
+    <div class="process-row reveal">
+      <span class="process-num">01</span>
+      <div class="process-body">
+        <h3>Discover</h3>
+        <p>We start with your business, not a template — goals, audience, content and what "done" actually looks like.</p>
+      </div>
+      <span class="process-line"></span>
+    </div>
+    <div class="process-row reveal">
+      <span class="process-num">02</span>
+      <div class="process-body">
+        <h3>Design</h3>
+        <p>Wireframes and a visual direction built around your brand, refined together before a single line of code is written.</p>
+      </div>
+      <span class="process-line"></span>
+    </div>
+    <div class="process-row reveal">
+      <span class="process-num">03</span>
+      <div class="process-body">
+        <h3>Build</h3>
+        <p>Clean, modern development — responsive, fast and tested across devices, with progress shared as we go.</p>
+      </div>
+      <span class="process-line"></span>
+    </div>
+    <div class="process-row reveal">
+      <span class="process-num">04</span>
+      <div class="process-body">
+        <h3>Launch</h3>
+        <p>We deploy, hand the keys over, and stay on for support — your site doesn't go quiet the day it goes live.</p>
+      </div>
+      <span class="process-line"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section about" id="about">
+  <div class="frame-tag frame-tag--tl">FRAME / ABOUT</div>
+  <div class="about-grid">
+    <div class="about-head">
+      <p class="eyebrow reveal"><span class="eyebrow-dot"></span>ABOUT VORYZAQ</p>
+      <h2 class="section-title reveal">Built around one idea.</h2>
+    </div>
+    <div class="about-body reveal">
+      <p>Voryzaq Services is a web development studio built on a simple belief — your website should feel as sharp as your business. We plan, design and build every project ourselves, from the first sketch to the day it goes live, so nothing gets lost between a good idea and a finished product.</p>
+      <p>No templates dressed up as custom work. No hand‑offs between five different people. Just a direct line from you to the people actually building your site.</p>
+    </div>
+  </div>
+
+  <div class="why-grid">
+    <div class="why-card reveal">
+      <h3>Direct Communication</h3>
+      <p>No account managers, no middlemen — you talk to the person building your site.</p>
+    </div>
+    <div class="why-card reveal">
+      <h3>Built to Last</h3>
+      <p>Clean, modern code — not page‑builder bloat that slows down the moment you add a plugin.</p>
+    </div>
+    <div class="why-card reveal">
+      <h3>Fast Turnaround</h3>
+      <p>Focused scopes and clear timelines — most projects go from kickoff to launch in weeks.</p>
+    </div>
+    <div class="why-card reveal">
+      <h3>Ongoing Support</h3>
+      <p>Launch day isn't the finish line. We're around for updates, fixes and changes after.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CLIENT CTA ===== -->
+<section class="cta">
+  <div class="frame-tag frame-tag--tl light">FRAME / CTA</div>
+  <h2 class="cta-title reveal">Have a project<br>in mind?</h2>
+  <p class="cta-sub reveal">Tell us what you're building — we'll tell you how we'd build it.</p>
+  <a href="#contact" class="btn btn-primary btn-lg magnetic reveal">
+    <span>Start a Conversation</span>
+    <svg width="16" height="16" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section" id="contact">
+  <div class="frame-tag frame-tag--tl">FRAME / CONTACT</div>
+  <div class="contact-grid">
+    <div class="contact-head">
+      <p class="eyebrow reveal"><span class="eyebrow-dot"></span>GET IN TOUCH</p>
+      <h2 class="section-title reveal">Let's build<br>something <em>solid.</em></h2>
+      <p class="contact-note reveal">Fill in the form, or reach out directly — we usually reply within a day.</p>
+
+      <div class="contact-direct reveal">
+        <a href="mailto:hello@voryzaq.com">hello@voryzaq.com <span>↗</span></a>
+        <a href="https://github.com/voryzaq-services" target="_blank" rel="noopener">github.com/voryzaq-services <span>↗</span></a>
+        <a href="https://www.instagram.com/voryzaq/" target="_blank" rel="noopener">instagram.com/voryzaq <span>↗</span></a>
+      </div>
+    </div>
+
+    <form class="contact-form reveal" id="contactForm" action="https://formspree.io/f/myeyqagw" method="POST">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@company.com" required>
+      </div>
+      <div class="field">
+        <label for="project">Project type</label>
+        <select id="project" name="project">
+          <option>Business Website</option>
+          <option>E‑Commerce</option>
+          <option>Landing Page</option>
+          <option>Redesign</option>
+          <option>Something else</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="message">Tell us about your project</label>
+        <textarea id="message" name="message" rows="4" placeholder="What are you building, and when do you need it live?" required></textarea>
+      </div>
+      <input type="text" name="_gotcha" class="field-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button type="submit" class="btn btn-primary btn-full magnetic" id="formSubmit">
+        <span>Send Message</span>
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.4"/></svg>
+      </button>
+      <p class="form-note" id="formNote">We'll only use these details to reply about your project.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-top">
+    <a href="#top" class="footer-logo">
+      <img src="assets/logo-icon.png" alt="" class="footer-logo-img">
+      <span class="footer-logo-text">VORYZAQ<span class="footer-logo-sub">SERVICES</span></span>
+    </a>
+    <p class="footer-tag">We build digital experiences.</p>
+  </div>
+
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="#services">Business Websites</a>
+      <a href="#services">E‑Commerce</a>
+      <a href="#services">Landing Pages</a>
+      <a href="#services">Redesigns</a>
+      <a href="#services">Graphic Design</a>
+    </div>
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <a href="https://github.com/voryzaq-services" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:hello@voryzaq.com">Email</a>
+      <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.instagram.com/voryzaq/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-legal">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms &amp; Conditions</a>
+      <a href="cookies.html">Cookie Policy</a>
+    </div>
+    <div class="footer-copy">
+      <span>© 2026 Voryzaq Services. All rights reserved.</span>
+      <span>Designed &amp; built in‑house.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie-banner" id="cookieBanner">
+  <p>We use only the essential local storage needed to run this site (like remembering this choice). No tracking or analytics cookies are set. See our <a href="cookies.html">Cookie Policy</a> for details.</p>
+  <div class="cookie-banner-actions">
+    <button class="btn btn-primary" id="cookieAccept" style="background:var(--paper);color:var(--ink);">Got it</button>
+    <a href="cookies.html" class="btn btn-outline" style="border-color:var(--line-light-strong);color:var(--paper);">Learn more</a>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

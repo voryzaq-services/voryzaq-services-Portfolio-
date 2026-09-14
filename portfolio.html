@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Voryzaq Services</title>
+<meta name="description" content="Selected web design, e-commerce, landing page and graphic design work from Voryzaq Services.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png">
+</head>
+<body>
+
+<!-- ===== PRELOADER ===== -->
+<div class="preloader" id="preloader">
+  <div class="preloader-mark">
+    <img src="assets/logo-icon.png" alt="Voryzaq Services" class="preloader-logo">
+  </div>
+  <div class="preloader-label">VORYZAQ</div>
+</div>
+
+<!-- ===== CUSTOM CURSOR ===== -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ===== BLUEPRINT BACKDROP ===== -->
+<div class="blueprint" aria-hidden="true">
+  <div class="blueprint-grid"></div>
+  <div class="blueprint-spot" id="blueprintSpot"></div>
+</div>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-mark"><img src="assets/logo-icon.png" alt="" class="nav-logo-img"></span>
+      VORYZAQ<span class="nav-logo-sub">SERVICES</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="portfolio.html" class="is-current"><span class="nav-idx">01</span>Work</a>
+      <a href="index.html#services"><span class="nav-idx">02</span>Services</a>
+      <a href="index.html#process"><span class="nav-idx">03</span>Process</a>
+      <a href="index.html#about"><span class="nav-idx">04</span>About</a>
+      <a href="index.html#contact"><span class="nav-idx">05</span>Contact</a>
+    </nav>
+    <a href="index.html#contact" class="btn btn-ghost nav-cta">Start a Project</a>
+    <button class="nav-burger" id="navBurger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ===== PORTFOLIO HERO ===== -->
+<section class="pf-hero">
+  <div class="frame-tag frame-tag--tl light">FRAME / PORTFOLIO</div>
+  <div class="frame-tag frame-tag--tr light" id="scrollCoord">X:0000 Y:0000</div>
+
+  <div class="pf-hero-inner">
+    <p class="eyebrow reveal"><span class="eyebrow-dot"></span>SELECTED WORK</p>
+    <h1 class="pf-hero-title reveal">Every project,<br>one <em>standard.</em></h1>
+    <p class="pf-hero-sub reveal">A mix of business websites, online stores, landing pages and the brand &amp; graphic design work that goes alongside them.</p>
+  </div>
+
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>WEB DESIGN</span><span class="marquee-sep">✦</span>
+      <span>E‑COMMERCE</span><span class="marquee-sep">✦</span>
+      <span>LANDING PAGES</span><span class="marquee-sep">✦</span>
+      <span>REDESIGNS</span><span class="marquee-sep">✦</span>
+      <span>GRAPHIC DESIGN</span><span class="marquee-sep">✦</span>
+      <span>BRAND IDENTITY</span><span class="marquee-sep">✦</span>
+      <span>WEB DESIGN</span><span class="marquee-sep">✦</span>
+      <span>E‑COMMERCE</span><span class="marquee-sep">✦</span>
+      <span>LANDING PAGES</span><span class="marquee-sep">✦</span>
+      <span>REDESIGNS</span><span class="marquee-sep">✦</span>
+      <span>GRAPHIC DESIGN</span><span class="marquee-sep">✦</span>
+      <span>BRAND IDENTITY</span><span class="marquee-sep">✦</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FILTERS + GRID ===== -->
+<section class="section pf-section">
+  <div class="frame-tag frame-tag--tl">FRAME / GRID</div>
+
+  <div class="filter-tabs reveal" id="filterTabs">
+    <button class="filter-btn is-active" data-filter="all">All Work</button>
+    <button class="filter-btn" data-filter="web">Web Design</button>
+    <button class="filter-btn" data-filter="ecommerce">E‑Commerce</button>
+    <button class="filter-btn" data-filter="landing">Landing Pages</button>
+    <button class="filter-btn" data-filter="redesign">Redesigns</button>
+    <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+  </div>
+
+  <p class="pf-note reveal">Placeholder previews — swap these for real project screenshots and links as work ships. Every card can point straight at a live site or case study.</p>
+
+  <div class="portfolio-grid" id="portfolioGrid">
+
+    <a class="portfolio-card" data-cat="web" href="https://github.com/voryzaq-services" target="_blank" rel="noopener">
+      <div class="pf-preview">
+        <div class="browser-chrome"><span></span><span></span><span></span></div>
+        <div class="work-preview-body">
+          <div class="wp-line wp-line--lg"></div>
+          <div class="wp-line wp-line--md"></div>
+          <div class="wp-blocks"><span></span><span></span><span></span></div>
+          <div class="wp-line wp-line--sm"></div>
+        </div>
+      </div>
+      <div class="pf-meta">
+        <h3>Studio Nine</h3>
+        <span class="pf-cat">Business Website</span>
+      </div>
+    </a>
+
+    <a class="portfolio-card" data-cat="graphic" href="https://github.com/voryzaq-services" target="_blank" rel="noopener">
+      <div class="pf-preview pf-preview--square">
+        <div class="poster-mock">
+          <span class="poster-tag">GD</span>
+          <div class="poster-mark"></div>
+          <div class="poster-lines"><span></span><span></span></div>
+        </div>
+      </div>
+      <div class="pf-meta">
+        <h3>Solace Co.</h3>
+        <span class="pf-cat">Brand Identity</span>
+      </div>
+    </a>
+
+    <a class="portfolio-card" data-cat="ecommerce" href="https://voryzaq-services.github.io/clothing-brand-sample/" target="_blank" rel="noopener">
+      <div class="pf-preview">
+        <div class="browser-chrome"><span></span><span></span><span></span></div>
+        <div class="live-embed">
+          <iframe src="https://voryzaq-services.github.io/clothing-brand-sample/" loading="lazy" tabindex="-1" title="Wear Drip preview"></iframe>
+        </div>
+      </div>
+      <div class="pf-meta">
+        <div class="pf-meta-main">
+          <h3>Wear Drip</h3>
+          <span class="pf-cat">Streetwear E‑Commerce</span>
+        </div>
+        <span class="pf-live"><span class="pf-live-dot"></span>Live</span>
+      </div>
+    </a>
+
+    <a class="portfolio-card" data-cat="landing" href="https://github.com/voryzaq-services" target="_blank" rel="noopener">
+      <div class="pf-preview pf-preview--short">
+        <div class="browser-chrome"><span></span><span></span><span></span></div>
+        <div class="work-preview-body">
+          <div class="wp-line wp-line--lg"></div>
+          <div class="wp-line wp-line--sm"></div>
+        </div>
+      </div>
+      <div class="pf-meta">
+        <h3>Launchline</h3>
+        <span class="pf-cat">Landing Page</span>
+      </div>
+    </a>
+
+    <a class="portfolio-card" data-cat="graphic" href="https://github.com/voryzaq-services" target="_blank" rel="noopener">
+      <div class="pf-preview pf-preview--tall">
+        <div class="poster-mock">
+          <span class="poster-tag">GD</span>
+          <div class="poster-lines poster-lines--stack">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="poster-swatches"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+      <div class="pf-meta">
+        <h3>Fernweh</h3>
+        <span class="pf-cat">Packaging Design</span>
+      </div>
+    </a>
+
+    <a class="portfolio-card" data-cat="redesign" href="https://github.com/voryzaq-services" target="_blank" rel="noopener">
+      <div class="pf-preview">
+        <div class="browser-chrome"><span></span><span></span><span></span></div>
+        <div class="work-preview-body">
+          <div class="wp-line wp-line--lg"></div>
+          <div class="wp-circle"></div>
+          <div class="wp-line wp-line--md"></div>
+        </div>
+      </div>
+      <div class="pf-meta">
+        <h3>Harbor &amp; Co.</h3>
+        <span class="pf-cat">Website Redesign</span>
+      </div>
+    </a>
+
+    <a class="portfolio-card" data-cat="web" href="https://github.com/voryzaq-services" target="_blank" rel="noopener">
+      <div class="pf-preview pf-preview--short">
+        <div class="browser-chrome"><span></span><span></span><span></span></div>
+        <div class="work-preview-body">
+          <div class="wp-line wp-line--md"></div>
+          <div class="wp-blocks"><span></span><span></span></div>
+        </div>
+      </div>
+      <div class="pf-meta">
+        <h3>Meridian Studio</h3>
+        <span class="pf-cat">Portfolio Website</span>
+      </div>
+    </a>
+
+    <a class="portfolio-card" data-cat="graphic" href="https://github.com/voryzaq-services" target="_blank" rel="noopener">
+      <div class="pf-preview pf-preview--square">
+        <div class="poster-mock poster-mock--logo">
+          <span class="poster-tag">GD</span>
+          <div class="poster-mark poster-mark--sq"></div>
+          <div class="poster-lines"><span></span></div>
+        </div>
+      </div>
+      <div class="pf-meta">
+        <h3>Petrel</h3>
+        <span class="pf-cat">Logo &amp; Identity</span>
+      </div>
+    </a>
+
+    <a class="portfolio-card" data-cat="ecommerce" href="https://voryzaq-services.github.io/Luxora-fashion/" target="_blank" rel="noopener">
+      <div class="pf-preview pf-preview--tall">
+        <div class="browser-chrome"><span></span><span></span><span></span></div>
+        <div class="live-embed">
+          <iframe src="https://voryzaq-services.github.io/Luxora-fashion/" loading="lazy" tabindex="-1" title="Luxora preview"></iframe>
+        </div>
+      </div>
+      <div class="pf-meta">
+        <div class="pf-meta-main">
+          <h3>Luxora</h3>
+          <span class="pf-cat">Fashion E‑Commerce</span>
+        </div>
+        <span class="pf-live"><span class="pf-live-dot"></span>Live</span>
+      </div>
+    </a>
+
+    <a class="portfolio-card" data-cat="graphic" href="https://github.com/voryzaq-services" target="_blank" rel="noopener">
+      <div class="pf-preview pf-preview--square">
+        <div class="poster-mock">
+          <span class="poster-tag">GD</span>
+          <div class="poster-swatches poster-swatches--lg"><span></span><span></span><span></span></div>
+          <div class="poster-lines"><span></span><span></span></div>
+        </div>
+      </div>
+      <div class="pf-meta">
+        <h3>Kindred</h3>
+        <span class="pf-cat">Social Campaign</span>
+      </div>
+    </a>
+
+    <a class="portfolio-card" data-cat="landing" href="https://github.com/voryzaq-services" target="_blank" rel="noopener">
+      <div class="pf-preview pf-preview--short">
+        <div class="browser-chrome"><span></span><span></span><span></span></div>
+        <div class="work-preview-body">
+          <div class="wp-line wp-line--md"></div>
+          <div class="wp-circle"></div>
+        </div>
+      </div>
+      <div class="pf-meta">
+        <h3>Waitlist Co.</h3>
+        <span class="pf-cat">Landing Page</span>
+      </div>
+    </a>
+
+    <a class="portfolio-card" data-cat="web" href="https://voryzaq-services.github.io/real-state-portfolio/" target="_blank" rel="noopener">
+      <div class="pf-preview">
+        <div class="browser-chrome"><span></span><span></span><span></span></div>
+        <div class="live-embed">
+          <iframe src="https://voryzaq-services.github.io/real-state-portfolio/" loading="lazy" tabindex="-1" title="Aldermere preview"></iframe>
+        </div>
+      </div>
+      <div class="pf-meta">
+        <div class="pf-meta-main">
+          <h3>Aldermere</h3>
+          <span class="pf-cat">Real Estate Website</span>
+        </div>
+        <span class="pf-live"><span class="pf-live-dot"></span>Live</span>
+      </div>
+    </a>
+
+  </div>
+
+  <p class="pf-empty" id="pfEmpty" hidden>Nothing filed under this category yet — check back soon.</p>
+</section>
+
+<!-- ===== CLIENT CTA ===== -->
+<section class="cta">
+  <div class="frame-tag frame-tag--tl light">FRAME / CTA</div>
+  <h2 class="cta-title reveal">Like what<br>you see?</h2>
+  <p class="cta-sub reveal">Let's talk about what you're building next.</p>
+  <a href="index.html#contact" class="btn btn-primary btn-lg magnetic reveal">
+    <span>Start a Conversation</span>
+    <svg width="16" height="16" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-top">
+    <a href="index.html" class="footer-logo">
+      <img src="assets/logo-icon.png" alt="" class="footer-logo-img">
+      <span class="footer-logo-text">VORYZAQ<span class="footer-logo-sub">SERVICES</span></span>
+    </a>
+    <p class="footer-tag">We build digital experiences.</p>
+  </div>
+
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#process">Process</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="index.html#services">Business Websites</a>
+      <a href="index.html#services">E‑Commerce</a>
+      <a href="index.html#services">Landing Pages</a>
+      <a href="index.html#services">Redesigns</a>
+      <a href="index.html#services">Graphic Design</a>
+    </div>
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <a href="https://github.com/voryzaq-services" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:hello@voryzaq.com">Email</a>
+      <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.instagram.com/voryzaq/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-legal">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms &amp; Conditions</a>
+      <a href="cookies.html">Cookie Policy</a>
+    </div>
+    <div class="footer-copy">
+      <span>© 2026 Voryzaq Services. All rights reserved.</span>
+      <span>Designed &amp; built in‑house.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie-banner" id="cookieBanner">
+  <p>We use only the essential local storage needed to run this site (like remembering this choice). No tracking or analytics cookies are set. See our <a href="cookies.html">Cookie Policy</a> for details.</p>
+  <div class="cookie-banner-actions">
+    <button class="btn btn-primary" id="cookieAccept" style="background:var(--paper);color:var(--ink);">Got it</button>
+    <a href="cookies.html" class="btn btn-outline" style="border-color:var(--line-light-strong);color:var(--paper);">Learn more</a>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
